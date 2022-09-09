@@ -1,0 +1,122 @@
+
+/* styling the upper section ---------------------------------------------------*/
+.main-dev{
+    
+    background-color: #94262E;
+    width: 100%;
+    padding-top: 30px;
+    position: relative;
+    margin-top: -37px;
+    display: block;
+    padding-bottom: 50px;
+    
+
+}
+
+.logo{
+    margin: 40px 90px 30px 90px;
+
+}
+.logo h1{
+    color: white;
+    font-family:Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 110px;
+}
+.logo h2{
+    color: black;
+    font-family:Impact, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px; 
+    margin-top: -60px;  
+
+}
+.logo p{
+    color: white;
+    font-size: 20px;
+
+}
+/* -----------------------------------end upper section---------------------------------------------- */
+
+/* styling the main contents---------------------------------------------------------- */
+.second-dev{
+    /* border: 2px solid red; */
+    padding: 0px 70px 90px 70px; 
+    margin-top: 30px;
+}
+
+.A {
+    display: flex;
+    margin-left:  10px;
+    padding: 20px; 
+    align-items: center; 
+}
+.A h1{
+    padding-left: 50px;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.B{
+    margin-left:  10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.C #red{
+    font-weight:bolder;
+    font-size: x-large;
+    color: red;
+}
+.C #black{
+    font-weight:bolder;
+    font-size: x-large;
+    text-align: center;
+    margin-top: -30px;
+}
+/* -------------------------------end main content-------------------------------- */
+ 
+/*styling the section--------------------------------------------------------------- */
+.last-dev{
+    background-color: #94262E;
+    width: 100%;
+    height: 300px;
+    color: white;   
+    position: relative;
+
+    
+}
+
+.last-dev .last-inner{
+    padding-top: 80px;
+    margin-top: 80px;
+    margin-left: 80px;
+    display: block;
+    margin-bottom: 60px;
+}
+.last-inner h1{
+    font-size: 60px;
+    line-height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* ----------------------------------end last section--------------------------------- */
+
+/* styling the triangle------------------------------------------------------- */
+.triangle{
+
+    width: 0%;
+    height: 0%;
+    border-top-width: 150px;
+    border-top-style: solid;
+    border-top-color: transparent;
+    border-right-width: 150px;
+    border-right-style: solid;
+    border-right-color: white;
+    right: 0;
+    bottom: 0px;
+    position: absolute;
+    
+}
+/* ---------------------end styling triangle section------------------------------------ */
+

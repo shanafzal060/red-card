@@ -1,0 +1,173 @@
+/* styling logo */
+.header {
+    padding: 20px;
+}
+/* --------------------------------------------------- */
+
+.main-section{
+    background-color: #94262E;
+    display:flex;
+    width: 98%;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+/* ------------------------------------------------------- */
+.first{
+    width: 50%;
+    align-content: center;
+    padding: 100px;
+    margin-bottom: 450px;
+}
+.first input{
+    float: right;
+    margin-right: 15px;
+
+}
+#left-checkbox{
+    margin-right: 50px;
+}
+/* ------------------------------------------------------- */
+.second{
+    width: 50%;
+
+}
+/* ------------------------------------------------------ */
+.first h1{
+    color: white;
+    font-size: 80px;
+}
+.first p,h2,.text h1{
+    color: black;
+}
+
+.text input{
+    border: 2px solid white;
+    background-color: #94262E;
+    width: 60%;
+    height: 40px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.text textarea{
+    border: 2px solid white;
+    background-color: #94262E;
+    color: white;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+#checkbox-2{
+    float:right;
+    margin-right: 400px;
+    margin-top: 9px;
+}
+
+/* #checkbox-1{
+    accent-color:#94262E ;
+    
+} */
+.container {
+    display: inline;
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: -18px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hide the default checkbox */
+  .container input {
+    visibility: hidden;
+    cursor: pointer;
+  }
+  
+  /* Create a custom checkbox */
+  .mark {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: #94262E;
+    border:2px solid white;
+  }
+  
+  /* .container:hover input ~ .mark {
+    background-color: gray;
+  } */
+  
+  .container input:checked ~ .mark {
+    background-color: #94262E;
+  }
+  
+  /* Create the mark/indicator (hidden when not checked) */
+  .mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the mark when checked */
+  .container input:checked ~ .mark:after {
+    display: block;
+  }
+  
+  /* Style the mark/indicator */
+  .container .mark:after {
+    left: 2px;
+    top: -5px;
+    width: 8px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+
+  
+
+
+form p,label{
+    color: white;
+}
+
+/* styling the placeholder--------------------------------- */
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+
+  /* styling button ---------------------------------------------------*/
+button{
+    width: 50%;
+    height: 50%;
+    font-size: 28px;
+    border: 1px solid white;
+}
+/* syling the triangle at the right corner -----------------------------*/
+.triangle{
+    width: 0;
+    height: 0;
+    border-top-width: 150px;
+    border-top-style: solid;
+    border-top-color: transparent;
+    border-right-width: 150px;
+    border-right-style: solid;
+    border-right-color: white;
+    float: right;   
+
+  }
